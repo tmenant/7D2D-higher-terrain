@@ -3,7 +3,7 @@
 	<Name value="HigherTerrain" />
 	<DisplayName value="higher-terrain" />
 	<Description value="Add a new parameter to the random world generator to increase terrain height" />
-	<Author value="VisualDev-FR" />
-	<Version value="0.0.0" />
+	<Author value="temenant" />
+	<Version value="0.1.0" />
 	<Website value="https://www.nexusmods.com/7daystodie/mods/7873" />
 </xml>

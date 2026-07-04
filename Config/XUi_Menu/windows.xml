@@ -2,10 +2,7 @@
     <conditional>
         <if cond="!mod_loaded('TheDescent')">
 
-            <remove xpath="/windows/window[@name='worldGeneration']//grid/rect[14]" />
-            <remove xpath="/windows/window[@name='worldGeneration']//grid/rect[13]" />
-
-            <insertAfter xpath="/windows/window[@name='worldGeneration']//grid/rect/label[@text='Lakes']/..">
+            <insertAfter xpath="/windows/window[@name='worldGeneration']//rect[@name='scrollarea']//rwg_label[@text_key='xuiLakes']/..">
 
                 <!-- separator -->
                 <rect>
